@@ -1,0 +1,132 @@
+if (isset($_POST['signup'])) {
+    $Fname = $_POST['fname'];
+    $Mname = $_POST['mname'];
+    $Lname = $_POST['lname'];
+    $ContactNo = $_POST['contact'];
+    $EmailAdd = $_POST['email'];
+    $Username = $_POST['username'];
+    $Password = md5($_POST['password']);
+    $role = $_POST['role'];
+    $status = 1;
+
+    $sql = "INSERT INTO tbluser(Fname, Mname, Lname, EmailAdd, ContactNo, Username, Password, Role, Status) VALUES(:fname, :mname, :lname, :email, :contact, :username, :password, :role, :status)";
+
+    $query = $dbh->prepare($sql);
+    $query->bindParam(':fname', $Fname, PDO::PARAM_STR);
+    $query->bindParam(':mname', $Mname, PDO::PARAM_STR);
+    $query->bindParam(':lname', $Lname, PDO::PARAM_STR);
+    $query->bindParam(':email', $EmailAdd, PDO::PARAM_STR);
+    $query->bindParam(':contact', $ContactNo, PDO::PARAM_STR);
+    $query->bindParam(':username', $Username, PDO::PARAM_STR);
+    $query->bindParam(':password', $Password, PDO::PARAM_STR);
+    $query->bindParam(':role', $Role, PDO::PARAM_STR);
+    $query->bindParam(':status', $Status, PDO::PARAM_STR);
+
+    $query->execute();
+    $lastInsertId = $dbh->lastInsertId();
+    if ($lastInsertId) {
+        echo '<script>alert("Your Registration successful and your username is ' . $Username . '")</script>';
+    } else {
+        echo "<script>alert('Something went wrong. Please try again');</script>";
+    }
+}
+?>
+
+
+
+
+
+
+
+
+ <!-- Foramt List -->
+                                <div class="panel-heading">
+                                    Foramt List
+                                </div>
+                                <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Name</th>
+                                            <th>Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <?php $sql = "SELECT * from formattbl";
+                                        $query = $dbh->prepare($sql);
+                                        $query->execute();
+                                        $results = $query->fetchAll(PDO::FETCH_OBJ);
+                                        $cnt = 1;
+                                        if ($query->rowCount() > 0) {
+                                            foreach ($results as $result) {
+                                                ?>
+                                                <tr class="odd gradeX">
+                                                    <td><?php echo htmlentities($cnt); ?></td>
+
+                                                    <td><?php echo htmlentities($result->formatName); ?></td>
+
+                                                    <td>
+                                                        <a
+                                                            href="edit-book.php?bookid=<?php echo htmlentities($result->bookid); ?>">
+                                                            <button class="btn btn-primary"><i class="fa fa-edit"></i>
+                                                                Edit</button>
+                                                        </a>
+                                                        <a href="manage-books.php?del=<?php echo htmlentities($result->bookid); ?>"
+                                                            onclick="return confirm('Are you sure you want to delete?');">
+                                                            <button class="btn btn-danger"><i class="fa fa-trash"></i>
+                                                                Delete</button>
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                                <?php $cnt = $cnt + 1;
+                                            }
+                                        } ?>
+                                    </tbody>
+                                </table>
+                                <!-- End Format List -->
+
+                                <!-- Shelf List -->
+                                <div class="panel-heading">
+                                    Shelf List
+                                </div>
+                                <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Name</th>
+                                            <th>Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <?php $sql = "SELECT * from shelftbl";
+                                        $query = $dbh->prepare($sql);
+                                        $query->execute();
+                                        $results = $query->fetchAll(PDO::FETCH_OBJ);
+                                        $cnt = 1;
+                                        if ($query->rowCount() > 0) {
+                                            foreach ($results as $result) {
+                                                ?>
+                                                <tr class="odd gradeX">
+                                                    <td><?php echo htmlentities($cnt); ?></td>
+
+                                                    <td><?php echo htmlentities($result->shelfLoc); ?></td>
+
+                                                    <td>
+                                                        <a
+                                                            href="edit-book.php?bookid=<?php echo htmlentities($result->bookid); ?>">
+                                                            <button class="btn btn-primary"><i class="fa fa-edit"></i>
+                                                                Edit</button>
+                                                        </a>
+                                                        <a href="manage-books.php?del=<?php echo htmlentities($result->bookid); ?>"
+                                                            onclick="return confirm('Are you sure you want to delete?');">
+                                                            <button class="btn btn-danger"><i class="fa fa-trash"></i>
+                                                                Delete</button>
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                                <?php $cnt = $cnt + 1;
+                                            }
+                                        } ?>
+                                    </tbody>
+                                </table>
+                                <!-- End Shelf List -->
