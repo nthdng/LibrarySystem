@@ -1,0 +1,209 @@
+<?php
+session_start();
+error_reporting(0);
+include('../includes/config.php');
+
+// if(strlen($_SESSION['login'])==0)
+//   { 
+// header('location:../login.php');
+// }
+// else{
+
+// Archive student function
+if (isset($_GET['del'])) {
+    $id = $_GET['del'];
+
+    // Fetch the student data based on the ID
+    $sqlFetch = "SELECT * FROM tblstudent WHERE ID = :id";
+    $queryFetch = $dbh->prepare($sqlFetch);
+    $queryFetch->bindParam(':id', $id, PDO::PARAM_STR);
+    $queryFetch->execute();
+    $studentData = $queryFetch->fetch(PDO::FETCH_OBJ);
+
+    if ($studentData) {
+        // Insert data into tblarchivestudent
+        $sqlArchive = "INSERT INTO tblarchivestudent (StudentID, Fname, Mname, Lname, CourseStrand, YrLevel, ContactNo, Email, hAddress)
+                       VALUES (:StudentID, :Fname, :Mname, :Lname, :CourseStrand, :YrLevel, :ContactNo, :Email, :hAddress)";
+        $queryArchive = $dbh->prepare($sqlArchive);
+        $queryArchive->bindParam(':StudentID', $studentData->StudentID, PDO::PARAM_STR);
+        $queryArchive->bindParam(':Fname', $studentData->Fname, PDO::PARAM_STR);
+        $queryArchive->bindParam(':Mname', $studentData->Mname, PDO::PARAM_STR);
+        $queryArchive->bindParam(':Lname', $studentData->Lname, PDO::PARAM_STR);
+        $queryArchive->bindParam(':CourseStrand', $studentData->CourseStrand, PDO::PARAM_STR);
+        $queryArchive->bindParam(':YrLevel', $studentData->YrLevel, PDO::PARAM_STR);
+        $queryArchive->bindParam(':ContactNo', $studentData->ContactNo, PDO::PARAM_STR);
+        $queryArchive->bindParam(':Email', $studentData->Email, PDO::PARAM_STR);
+        $queryArchive->bindParam(':hAddress', $studentData->hAddress, PDO::PARAM_STR);
+        $queryArchive->execute();
+
+        // Delete the record from tblstudent
+        $sqlDelete = "DELETE FROM tblstudent WHERE ID = :id";
+        $queryDelete = $dbh->prepare($sqlDelete);
+        $queryDelete->bindParam(':id', $id, PDO::PARAM_STR);
+        $queryDelete->execute();
+
+        echo "<script>alert('Student Successfully Removed and Archived'); window.location.href='studentList.php';</script>";
+    } else {
+        
+        echo "<script>alert('Student not found!'); window.location.href='studentList.php';</script>";
+    }
+}
+
+
+?>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Online Library Management System | Manage Students</title>
+    <!-- BOOTSTRAP CORE STYLE  -->
+    <link href="../assets/css/bootstrap.css" rel="stylesheet" />
+    <!-- FONT AWESOME STYLE  -->
+    <link href="../assets/css/font-awesome.css" rel="stylesheet" />
+    <!-- DATATABLE STYLE  -->
+    <link href="../assets/js/dataTables/dataTables.bootstrap.css" rel="stylesheet" />
+    <!-- CUSTOM STYLE  -->
+    <link href="../assets/css/style.css" rel="stylesheet" />
+    <!-- GOOGLE FONT -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+
+</head>
+
+<body>
+    <!------MENU SECTION START-->
+    <?php include('../includes/header.php'); ?>
+    <!-- MENU SECTION END-->
+    <div class="content-wrapper">
+        <div class="container">
+            <div class="row pad-botm">
+                <div class="col-md-12">
+                    <h4 class="header-line">User Accounts</h4>
+                    <a href="addStudent.php" class="btn btn-success pull-right">+ ADD STUDENT</a>
+                    <!-- Import button -->
+                    <a href="ImportStudent.php" id="import" class="btn btn-primary">
+                        Import Data
+                    </a>
+                </div>
+
+
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <!-- Advanced Tables -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            Users
+                        </div>
+                        <div class="panel-body">
+                            <div class="table-responsive">
+                                <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Student ID</th>
+                                            <th>Student Name</th>
+                                            <th>Course/Strand </th>
+                                            <th>Year/Level</th>
+                                            <th>Contact #</th>
+                                            <th>Email Address</th>
+                                            <th>Address</th>
+                                            <th>Action</th>
+
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <?php $sql = "SELECT * from tblstudent";
+                                        $query = $dbh->prepare($sql);
+                                        $query->execute();
+                                        $results = $query->fetchAll(PDO::FETCH_OBJ);
+                                        $cnt = 1;
+
+                                        if ($query->rowCount() > 0) {
+                                            foreach ($results as $result) { ?>
+                                                <tr class="odd gradeX">
+                                                    <td class="center"><?php echo htmlentities($cnt); ?></td>
+                                                    <td class="center"><?php echo htmlentities($result->StudentID); ?></td>
+                                                    <td class="center">
+                                                        <?php
+                                                        // Concatenate Fname, MI, and Lname to form the Fullname
+                                                        // Convert the middle name to its initial (first letter)
+                                                        $middleInitial = strtoupper(substr($result->Mname, 0, 1));
+
+                                                        // Concatenate Fname, MI, and Lname to form the Fullname
+                                                        $fullname = $result->Fname . ' ' . $middleInitial . '. ' . $result->Lname;
+
+                                                        // Display the Fullname with htmlentities for safety
+                                                        echo htmlentities($fullname);
+                                                        ?>
+                                                    </td>
+                                                    <td class="center"><?php echo htmlentities($result->CourseStrand); ?></td>
+                                                    <td class="center"><?php echo htmlentities($result->YrLevel); ?></td>
+                                                    <td class="center"><?php echo htmlentities($result->ContactNo); ?></td>
+                                                    <td class="center"><?php echo htmlentities($result->Email); ?></td>
+                                                    <td class="center"><?php echo htmlentities($result->hAddress); ?></td>
+
+                                                    <!-- For updating student, update later -->
+                                                    <div>
+                                                        <td class="center">
+
+
+                                                            <a
+                                                                href=".php?stdid=<?php echo htmlentities($result->StudentID); ?>"><button
+                                                                    class="btn btn-success"> Records</button></a>
+
+                                                            <a
+                                                                href="updateStudent.php?stdid=<?php echo htmlentities($result->ID); ?>"><button
+                                                                    class="btn btn-primary"> Update</button></a>
+
+
+
+                                                            <a href="studentList.php?del=<?php echo htmlentities($result->ID); ?>"
+                                                                onclick="return confirm('Are you sure you want to remove this student?');">
+                                                                <button class="btn btn-danger">Remove</button>
+                                                            </a>
+                                                        </td>
+                                                    </div>
+                                                    <!-- End of Updating comment -->
+
+
+                                                </tr>
+                                                <?php $cnt = $cnt + 1;
+                                            }
+                                        } ?>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--End Advanced Tables -->
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <!-- CONTENT-WRAPPER SECTION END-->
+    <?php include('../includes/footer.php'); ?>
+    <!-- FOOTER SECTION END-->
+    <!-- JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME  -->
+    <!-- CORE JQUERY  -->
+    <script src="../assets/js/jquery-1.10.2.js"></script>
+    <!-- BOOTSTRAP SCRIPTS  -->
+    <script src="../assets/js/bootstrap.js"></script>
+    <!-- DATATABLE SCRIPTS  -->
+    <script src="../assets/js/dataTables/jquery.dataTables.js"></script>
+    <script src="../assets/js/dataTables/dataTables.bootstrap.js"></script>
+    <!-- CUSTOM SCRIPTS  -->
+    <script src="../assets/js/custom.js"></script>
+</body>
+
+</html>
+<?php //} ?>
