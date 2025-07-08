@@ -1,0 +1,322 @@
+[01-Mar-2025 03:55:28 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`pwubataa_librarySytem`.`borrowtbl`, CONSTRAINT `borrowtbl_ibfk_4` FOREIGN KEY (`StudentID`) REFERENCES `tblstudent` (`StudentID`)) in /home/pwubataa/public_html/main-all/updateStudent.php:75
+Stack trace:
+#0 /home/pwubataa/public_html/main-all/updateStudent.php(75): PDOStatement->execute()
+#1 {main}
+  thrown in /home/pwubataa/public_html/main-all/updateStudent.php on line 75
+[01-Mar-2025 03:55:37 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$StudentID in /home/pwubataa/public_html/main-all/updateStudent.php on line 220
+[01-Mar-2025 03:55:37 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 220
+[01-Mar-2025 03:55:37 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$Fname in /home/pwubataa/public_html/main-all/updateStudent.php on line 227
+[01-Mar-2025 03:55:37 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 227
+[01-Mar-2025 03:55:37 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$Mname in /home/pwubataa/public_html/main-all/updateStudent.php on line 233
+[01-Mar-2025 03:55:37 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 233
+[01-Mar-2025 03:55:37 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$Lname in /home/pwubataa/public_html/main-all/updateStudent.php on line 239
+[01-Mar-2025 03:55:37 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 239
+[01-Mar-2025 03:55:37 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$CourseStrand in /home/pwubataa/public_html/main-all/updateStudent.php on line 245
+[01-Mar-2025 03:55:37 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 245
+[01-Mar-2025 03:55:37 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$YrLevel in /home/pwubataa/public_html/main-all/updateStudent.php on line 251
+[01-Mar-2025 03:55:37 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 251
+[01-Mar-2025 03:55:37 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$ContactNo in /home/pwubataa/public_html/main-all/updateStudent.php on line 260
+[01-Mar-2025 03:55:37 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 260
+[01-Mar-2025 03:55:37 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$Email in /home/pwubataa/public_html/main-all/updateStudent.php on line 266
+[01-Mar-2025 03:55:37 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 266
+[01-Mar-2025 03:55:37 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$hAddress in /home/pwubataa/public_html/main-all/updateStudent.php on line 273
+[01-Mar-2025 03:55:37 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 273
+[01-Mar-2025 03:55:38 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`pwubataa_librarySytem`.`borrowtbl`, CONSTRAINT `borrowtbl_ibfk_4` FOREIGN KEY (`StudentID`) REFERENCES `tblstudent` (`StudentID`)) in /home/pwubataa/public_html/main-all/updateStudent.php:75
+Stack trace:
+#0 /home/pwubataa/public_html/main-all/updateStudent.php(75): PDOStatement->execute()
+#1 {main}
+  thrown in /home/pwubataa/public_html/main-all/updateStudent.php on line 75
+[01-Mar-2025 03:55:58 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`pwubataa_librarySytem`.`borrowtbl`, CONSTRAINT `borrowtbl_ibfk_4` FOREIGN KEY (`StudentID`) REFERENCES `tblstudent` (`StudentID`)) in /home/pwubataa/public_html/main-all/updateStudent.php:75
+Stack trace:
+#0 /home/pwubataa/public_html/main-all/updateStudent.php(75): PDOStatement->execute()
+#1 {main}
+  thrown in /home/pwubataa/public_html/main-all/updateStudent.php on line 75
+[01-Mar-2025 03:56:10 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$StudentID in /home/pwubataa/public_html/main-all/updateStudent.php on line 220
+[01-Mar-2025 03:56:10 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 220
+[01-Mar-2025 03:56:10 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$Fname in /home/pwubataa/public_html/main-all/updateStudent.php on line 227
+[01-Mar-2025 03:56:10 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 227
+[01-Mar-2025 03:56:10 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$Mname in /home/pwubataa/public_html/main-all/updateStudent.php on line 233
+[01-Mar-2025 03:56:10 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 233
+[01-Mar-2025 03:56:10 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$Lname in /home/pwubataa/public_html/main-all/updateStudent.php on line 239
+[01-Mar-2025 03:56:10 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 239
+[01-Mar-2025 03:56:10 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$CourseStrand in /home/pwubataa/public_html/main-all/updateStudent.php on line 245
+[01-Mar-2025 03:56:10 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 245
+[01-Mar-2025 03:56:10 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$YrLevel in /home/pwubataa/public_html/main-all/updateStudent.php on line 251
+[01-Mar-2025 03:56:10 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 251
+[01-Mar-2025 03:56:10 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$ContactNo in /home/pwubataa/public_html/main-all/updateStudent.php on line 260
+[01-Mar-2025 03:56:10 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 260
+[01-Mar-2025 03:56:10 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$Email in /home/pwubataa/public_html/main-all/updateStudent.php on line 266
+[01-Mar-2025 03:56:10 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 266
+[01-Mar-2025 03:56:10 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$hAddress in /home/pwubataa/public_html/main-all/updateStudent.php on line 273
+[01-Mar-2025 03:56:10 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 273
+[01-Mar-2025 03:56:44 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$StudentID in /home/pwubataa/public_html/main-all/updateStudent.php on line 220
+[01-Mar-2025 03:56:44 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 220
+[01-Mar-2025 03:56:44 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$Fname in /home/pwubataa/public_html/main-all/updateStudent.php on line 227
+[01-Mar-2025 03:56:44 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 227
+[01-Mar-2025 03:56:44 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$Mname in /home/pwubataa/public_html/main-all/updateStudent.php on line 233
+[01-Mar-2025 03:56:44 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 233
+[01-Mar-2025 03:56:44 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$Lname in /home/pwubataa/public_html/main-all/updateStudent.php on line 239
+[01-Mar-2025 03:56:44 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 239
+[01-Mar-2025 03:56:44 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$CourseStrand in /home/pwubataa/public_html/main-all/updateStudent.php on line 245
+[01-Mar-2025 03:56:44 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 245
+[01-Mar-2025 03:56:44 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$YrLevel in /home/pwubataa/public_html/main-all/updateStudent.php on line 251
+[01-Mar-2025 03:56:44 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 251
+[01-Mar-2025 03:56:44 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$ContactNo in /home/pwubataa/public_html/main-all/updateStudent.php on line 260
+[01-Mar-2025 03:56:44 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 260
+[01-Mar-2025 03:56:44 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$Email in /home/pwubataa/public_html/main-all/updateStudent.php on line 266
+[01-Mar-2025 03:56:44 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 266
+[01-Mar-2025 03:56:44 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$hAddress in /home/pwubataa/public_html/main-all/updateStudent.php on line 273
+[01-Mar-2025 03:56:44 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 273
+[01-Mar-2025 11:56:47 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1234' for key 'booktbl.bookCode' in /home/pwubataa/public_html/main-all/addBooks.php:69
+Stack trace:
+#0 /home/pwubataa/public_html/main-all/addBooks.php(69): PDOStatement->execute()
+#1 {main}
+  thrown in /home/pwubataa/public_html/main-all/addBooks.php on line 69
+[01-Mar-2025 11:57:05 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1234' for key 'booktbl.bookCode' in /home/pwubataa/public_html/main-all/addBooks.php:69
+Stack trace:
+#0 /home/pwubataa/public_html/main-all/addBooks.php(69): PDOStatement->execute()
+#1 {main}
+  thrown in /home/pwubataa/public_html/main-all/addBooks.php on line 69
+[01-Mar-2025 03:59:40 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$StudentID in /home/pwubataa/public_html/main-all/updateStudent.php on line 220
+[01-Mar-2025 03:59:40 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 220
+[01-Mar-2025 03:59:40 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$Fname in /home/pwubataa/public_html/main-all/updateStudent.php on line 227
+[01-Mar-2025 03:59:40 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 227
+[01-Mar-2025 03:59:40 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$Mname in /home/pwubataa/public_html/main-all/updateStudent.php on line 233
+[01-Mar-2025 03:59:40 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 233
+[01-Mar-2025 03:59:40 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$Lname in /home/pwubataa/public_html/main-all/updateStudent.php on line 239
+[01-Mar-2025 03:59:40 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 239
+[01-Mar-2025 03:59:40 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$CourseStrand in /home/pwubataa/public_html/main-all/updateStudent.php on line 245
+[01-Mar-2025 03:59:40 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 245
+[01-Mar-2025 03:59:40 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$YrLevel in /home/pwubataa/public_html/main-all/updateStudent.php on line 251
+[01-Mar-2025 03:59:40 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 251
+[01-Mar-2025 03:59:40 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$ContactNo in /home/pwubataa/public_html/main-all/updateStudent.php on line 260
+[01-Mar-2025 03:59:40 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 260
+[01-Mar-2025 03:59:40 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$Email in /home/pwubataa/public_html/main-all/updateStudent.php on line 266
+[01-Mar-2025 03:59:40 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 266
+[01-Mar-2025 03:59:40 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$hAddress in /home/pwubataa/public_html/main-all/updateStudent.php on line 273
+[01-Mar-2025 03:59:40 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 273
+[01-Mar-2025 11:59:50 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'a123' for key 'booktbl.bookCode' in /home/pwubataa/public_html/main-all/addBooks.php:69
+Stack trace:
+#0 /home/pwubataa/public_html/main-all/addBooks.php(69): PDOStatement->execute()
+#1 {main}
+  thrown in /home/pwubataa/public_html/main-all/addBooks.php on line 69
+[01-Mar-2025 04:04:36 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$StudentID in /home/pwubataa/public_html/main-all/updateStudent.php on line 220
+[01-Mar-2025 04:04:36 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 220
+[01-Mar-2025 04:04:36 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$Fname in /home/pwubataa/public_html/main-all/updateStudent.php on line 227
+[01-Mar-2025 04:04:36 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 227
+[01-Mar-2025 04:04:36 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$Mname in /home/pwubataa/public_html/main-all/updateStudent.php on line 233
+[01-Mar-2025 04:04:36 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 233
+[01-Mar-2025 04:04:36 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$Lname in /home/pwubataa/public_html/main-all/updateStudent.php on line 239
+[01-Mar-2025 04:04:36 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 239
+[01-Mar-2025 04:04:36 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$CourseStrand in /home/pwubataa/public_html/main-all/updateStudent.php on line 245
+[01-Mar-2025 04:04:36 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 245
+[01-Mar-2025 04:04:36 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$YrLevel in /home/pwubataa/public_html/main-all/updateStudent.php on line 251
+[01-Mar-2025 04:04:36 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 251
+[01-Mar-2025 04:04:36 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$ContactNo in /home/pwubataa/public_html/main-all/updateStudent.php on line 260
+[01-Mar-2025 04:04:36 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 260
+[01-Mar-2025 04:04:36 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$Email in /home/pwubataa/public_html/main-all/updateStudent.php on line 266
+[01-Mar-2025 04:04:36 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 266
+[01-Mar-2025 04:04:36 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$hAddress in /home/pwubataa/public_html/main-all/updateStudent.php on line 273
+[01-Mar-2025 04:04:36 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 273
+[01-Mar-2025 04:04:57 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$StudentID in /home/pwubataa/public_html/main-all/updateStudent.php on line 220
+[01-Mar-2025 04:04:57 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 220
+[01-Mar-2025 04:04:57 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$Fname in /home/pwubataa/public_html/main-all/updateStudent.php on line 227
+[01-Mar-2025 04:04:57 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 227
+[01-Mar-2025 04:04:57 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$Mname in /home/pwubataa/public_html/main-all/updateStudent.php on line 233
+[01-Mar-2025 04:04:57 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 233
+[01-Mar-2025 04:04:57 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$Lname in /home/pwubataa/public_html/main-all/updateStudent.php on line 239
+[01-Mar-2025 04:04:57 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 239
+[01-Mar-2025 04:04:57 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$CourseStrand in /home/pwubataa/public_html/main-all/updateStudent.php on line 245
+[01-Mar-2025 04:04:57 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 245
+[01-Mar-2025 04:04:57 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$YrLevel in /home/pwubataa/public_html/main-all/updateStudent.php on line 251
+[01-Mar-2025 04:04:57 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 251
+[01-Mar-2025 04:04:57 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$ContactNo in /home/pwubataa/public_html/main-all/updateStudent.php on line 260
+[01-Mar-2025 04:04:57 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 260
+[01-Mar-2025 04:04:57 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$Email in /home/pwubataa/public_html/main-all/updateStudent.php on line 266
+[01-Mar-2025 04:04:57 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 266
+[01-Mar-2025 04:04:57 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$hAddress in /home/pwubataa/public_html/main-all/updateStudent.php on line 273
+[01-Mar-2025 04:04:57 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 273
+[01-Mar-2025 04:05:22 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$StudentID in /home/pwubataa/public_html/main-all/updateStudent.php on line 220
+[01-Mar-2025 04:05:22 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 220
+[01-Mar-2025 04:05:22 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$Fname in /home/pwubataa/public_html/main-all/updateStudent.php on line 227
+[01-Mar-2025 04:05:22 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 227
+[01-Mar-2025 04:05:22 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$Mname in /home/pwubataa/public_html/main-all/updateStudent.php on line 233
+[01-Mar-2025 04:05:22 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 233
+[01-Mar-2025 04:05:22 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$Lname in /home/pwubataa/public_html/main-all/updateStudent.php on line 239
+[01-Mar-2025 04:05:22 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 239
+[01-Mar-2025 04:05:22 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$CourseStrand in /home/pwubataa/public_html/main-all/updateStudent.php on line 245
+[01-Mar-2025 04:05:22 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 245
+[01-Mar-2025 04:05:22 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$YrLevel in /home/pwubataa/public_html/main-all/updateStudent.php on line 251
+[01-Mar-2025 04:05:22 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 251
+[01-Mar-2025 04:05:22 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$ContactNo in /home/pwubataa/public_html/main-all/updateStudent.php on line 260
+[01-Mar-2025 04:05:22 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 260
+[01-Mar-2025 04:05:22 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$Email in /home/pwubataa/public_html/main-all/updateStudent.php on line 266
+[01-Mar-2025 04:05:22 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 266
+[01-Mar-2025 04:05:22 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$hAddress in /home/pwubataa/public_html/main-all/updateStudent.php on line 273
+[01-Mar-2025 04:05:22 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 273
+[01-Mar-2025 04:07:20 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$StudentID in /home/pwubataa/public_html/main-all/updateStudent.php on line 220
+[01-Mar-2025 04:07:20 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 220
+[01-Mar-2025 04:07:20 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$Fname in /home/pwubataa/public_html/main-all/updateStudent.php on line 227
+[01-Mar-2025 04:07:20 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 227
+[01-Mar-2025 04:07:20 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$Mname in /home/pwubataa/public_html/main-all/updateStudent.php on line 233
+[01-Mar-2025 04:07:20 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 233
+[01-Mar-2025 04:07:20 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$Lname in /home/pwubataa/public_html/main-all/updateStudent.php on line 239
+[01-Mar-2025 04:07:20 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 239
+[01-Mar-2025 04:07:20 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$CourseStrand in /home/pwubataa/public_html/main-all/updateStudent.php on line 245
+[01-Mar-2025 04:07:20 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 245
+[01-Mar-2025 04:07:20 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$YrLevel in /home/pwubataa/public_html/main-all/updateStudent.php on line 251
+[01-Mar-2025 04:07:20 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 251
+[01-Mar-2025 04:07:20 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$ContactNo in /home/pwubataa/public_html/main-all/updateStudent.php on line 260
+[01-Mar-2025 04:07:20 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 260
+[01-Mar-2025 04:07:20 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$Email in /home/pwubataa/public_html/main-all/updateStudent.php on line 266
+[01-Mar-2025 04:07:20 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 266
+[01-Mar-2025 04:07:20 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$hAddress in /home/pwubataa/public_html/main-all/updateStudent.php on line 273
+[01-Mar-2025 04:07:20 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 273
+[01-Mar-2025 04:09:17 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$StudentID in /home/pwubataa/public_html/main-all/updateStudent.php on line 220
+[01-Mar-2025 04:09:17 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 220
+[01-Mar-2025 04:09:17 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$Fname in /home/pwubataa/public_html/main-all/updateStudent.php on line 227
+[01-Mar-2025 04:09:17 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 227
+[01-Mar-2025 04:09:17 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$Mname in /home/pwubataa/public_html/main-all/updateStudent.php on line 233
+[01-Mar-2025 04:09:17 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 233
+[01-Mar-2025 04:09:17 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$Lname in /home/pwubataa/public_html/main-all/updateStudent.php on line 239
+[01-Mar-2025 04:09:17 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 239
+[01-Mar-2025 04:09:17 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$CourseStrand in /home/pwubataa/public_html/main-all/updateStudent.php on line 245
+[01-Mar-2025 04:09:17 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 245
+[01-Mar-2025 04:09:17 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$YrLevel in /home/pwubataa/public_html/main-all/updateStudent.php on line 251
+[01-Mar-2025 04:09:17 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 251
+[01-Mar-2025 04:09:17 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$ContactNo in /home/pwubataa/public_html/main-all/updateStudent.php on line 260
+[01-Mar-2025 04:09:17 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 260
+[01-Mar-2025 04:09:17 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$Email in /home/pwubataa/public_html/main-all/updateStudent.php on line 266
+[01-Mar-2025 04:09:17 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 266
+[01-Mar-2025 04:09:17 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$hAddress in /home/pwubataa/public_html/main-all/updateStudent.php on line 273
+[01-Mar-2025 04:09:17 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 273
+[01-Mar-2025 04:09:44 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$StudentID in /home/pwubataa/public_html/main-all/updateStudent.php on line 220
+[01-Mar-2025 04:09:44 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 220
+[01-Mar-2025 04:09:44 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$Fname in /home/pwubataa/public_html/main-all/updateStudent.php on line 227
+[01-Mar-2025 04:09:44 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 227
+[01-Mar-2025 04:09:44 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$Mname in /home/pwubataa/public_html/main-all/updateStudent.php on line 233
+[01-Mar-2025 04:09:44 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 233
+[01-Mar-2025 04:09:44 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$Lname in /home/pwubataa/public_html/main-all/updateStudent.php on line 239
+[01-Mar-2025 04:09:44 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 239
+[01-Mar-2025 04:09:44 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$CourseStrand in /home/pwubataa/public_html/main-all/updateStudent.php on line 245
+[01-Mar-2025 04:09:44 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 245
+[01-Mar-2025 04:09:44 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$YrLevel in /home/pwubataa/public_html/main-all/updateStudent.php on line 251
+[01-Mar-2025 04:09:44 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 251
+[01-Mar-2025 04:09:44 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$ContactNo in /home/pwubataa/public_html/main-all/updateStudent.php on line 260
+[01-Mar-2025 04:09:44 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 260
+[01-Mar-2025 04:09:44 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$Email in /home/pwubataa/public_html/main-all/updateStudent.php on line 266
+[01-Mar-2025 04:09:44 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 266
+[01-Mar-2025 04:09:44 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$hAddress in /home/pwubataa/public_html/main-all/updateStudent.php on line 273
+[01-Mar-2025 04:09:44 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 273
+[01-Mar-2025 04:09:48 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$StudentID in /home/pwubataa/public_html/main-all/updateStudent.php on line 220
+[01-Mar-2025 04:09:48 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 220
+[01-Mar-2025 04:09:48 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$Fname in /home/pwubataa/public_html/main-all/updateStudent.php on line 227
+[01-Mar-2025 04:09:48 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 227
+[01-Mar-2025 04:09:48 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$Mname in /home/pwubataa/public_html/main-all/updateStudent.php on line 233
+[01-Mar-2025 04:09:48 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 233
+[01-Mar-2025 04:09:48 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$Lname in /home/pwubataa/public_html/main-all/updateStudent.php on line 239
+[01-Mar-2025 04:09:48 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 239
+[01-Mar-2025 04:09:48 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$CourseStrand in /home/pwubataa/public_html/main-all/updateStudent.php on line 245
+[01-Mar-2025 04:09:48 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 245
+[01-Mar-2025 04:09:48 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$YrLevel in /home/pwubataa/public_html/main-all/updateStudent.php on line 251
+[01-Mar-2025 04:09:48 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 251
+[01-Mar-2025 04:09:48 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$ContactNo in /home/pwubataa/public_html/main-all/updateStudent.php on line 260
+[01-Mar-2025 04:09:48 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 260
+[01-Mar-2025 04:09:48 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$Email in /home/pwubataa/public_html/main-all/updateStudent.php on line 266
+[01-Mar-2025 04:09:48 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 266
+[01-Mar-2025 04:09:48 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$hAddress in /home/pwubataa/public_html/main-all/updateStudent.php on line 273
+[01-Mar-2025 04:09:48 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 273
+[01-Mar-2025 04:10:02 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$StudentID in /home/pwubataa/public_html/main-all/updateStudent.php on line 220
+[01-Mar-2025 04:10:02 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 220
+[01-Mar-2025 04:10:02 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$Fname in /home/pwubataa/public_html/main-all/updateStudent.php on line 227
+[01-Mar-2025 04:10:02 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 227
+[01-Mar-2025 04:10:02 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$Mname in /home/pwubataa/public_html/main-all/updateStudent.php on line 233
+[01-Mar-2025 04:10:02 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 233
+[01-Mar-2025 04:10:02 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$Lname in /home/pwubataa/public_html/main-all/updateStudent.php on line 239
+[01-Mar-2025 04:10:02 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 239
+[01-Mar-2025 04:10:02 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$CourseStrand in /home/pwubataa/public_html/main-all/updateStudent.php on line 245
+[01-Mar-2025 04:10:02 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 245
+[01-Mar-2025 04:10:02 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$YrLevel in /home/pwubataa/public_html/main-all/updateStudent.php on line 251
+[01-Mar-2025 04:10:02 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 251
+[01-Mar-2025 04:10:02 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$ContactNo in /home/pwubataa/public_html/main-all/updateStudent.php on line 260
+[01-Mar-2025 04:10:02 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 260
+[01-Mar-2025 04:10:02 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$Email in /home/pwubataa/public_html/main-all/updateStudent.php on line 266
+[01-Mar-2025 04:10:02 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 266
+[01-Mar-2025 04:10:02 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$hAddress in /home/pwubataa/public_html/main-all/updateStudent.php on line 273
+[01-Mar-2025 04:10:02 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 273
+[01-Mar-2025 04:10:09 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$StudentID in /home/pwubataa/public_html/main-all/updateStudent.php on line 220
+[01-Mar-2025 04:10:09 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 220
+[01-Mar-2025 04:10:09 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$Fname in /home/pwubataa/public_html/main-all/updateStudent.php on line 227
+[01-Mar-2025 04:10:09 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 227
+[01-Mar-2025 04:10:09 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$Mname in /home/pwubataa/public_html/main-all/updateStudent.php on line 233
+[01-Mar-2025 04:10:09 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 233
+[01-Mar-2025 04:10:09 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$Lname in /home/pwubataa/public_html/main-all/updateStudent.php on line 239
+[01-Mar-2025 04:10:09 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 239
+[01-Mar-2025 04:10:09 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$CourseStrand in /home/pwubataa/public_html/main-all/updateStudent.php on line 245
+[01-Mar-2025 04:10:09 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 245
+[01-Mar-2025 04:10:09 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$YrLevel in /home/pwubataa/public_html/main-all/updateStudent.php on line 251
+[01-Mar-2025 04:10:09 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 251
+[01-Mar-2025 04:10:09 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$ContactNo in /home/pwubataa/public_html/main-all/updateStudent.php on line 260
+[01-Mar-2025 04:10:09 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 260
+[01-Mar-2025 04:10:09 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$Email in /home/pwubataa/public_html/main-all/updateStudent.php on line 266
+[01-Mar-2025 04:10:09 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 266
+[01-Mar-2025 04:10:09 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$hAddress in /home/pwubataa/public_html/main-all/updateStudent.php on line 273
+[01-Mar-2025 04:10:09 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 273
+[01-Mar-2025 04:10:55 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$StudentID in /home/pwubataa/public_html/main-all/updateStudent.php on line 220
+[01-Mar-2025 04:10:55 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 220
+[01-Mar-2025 04:10:55 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$Fname in /home/pwubataa/public_html/main-all/updateStudent.php on line 227
+[01-Mar-2025 04:10:55 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 227
+[01-Mar-2025 04:10:55 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$Mname in /home/pwubataa/public_html/main-all/updateStudent.php on line 233
+[01-Mar-2025 04:10:55 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 233
+[01-Mar-2025 04:10:55 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$Lname in /home/pwubataa/public_html/main-all/updateStudent.php on line 239
+[01-Mar-2025 04:10:55 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 239
+[01-Mar-2025 04:10:55 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$CourseStrand in /home/pwubataa/public_html/main-all/updateStudent.php on line 245
+[01-Mar-2025 04:10:55 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 245
+[01-Mar-2025 04:10:55 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$YrLevel in /home/pwubataa/public_html/main-all/updateStudent.php on line 251
+[01-Mar-2025 04:10:55 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 251
+[01-Mar-2025 04:10:55 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$ContactNo in /home/pwubataa/public_html/main-all/updateStudent.php on line 260
+[01-Mar-2025 04:10:55 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 260
+[01-Mar-2025 04:10:55 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$Email in /home/pwubataa/public_html/main-all/updateStudent.php on line 266
+[01-Mar-2025 04:10:55 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 266
+[01-Mar-2025 04:10:55 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$hAddress in /home/pwubataa/public_html/main-all/updateStudent.php on line 273
+[01-Mar-2025 04:10:55 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 273
+[01-Mar-2025 12:11:38 Asia/Manila] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/confirmReturn.php on line 235
+[01-Mar-2025 12:11:38 Asia/Manila] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/confirmReturn.php on line 247
+[01-Mar-2025 12:11:40 Asia/Manila] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/confirmReturn.php on line 235
+[01-Mar-2025 12:11:40 Asia/Manila] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/confirmReturn.php on line 247
+[01-Mar-2025 04:11:49 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$StudentID in /home/pwubataa/public_html/main-all/updateStudent.php on line 220
+[01-Mar-2025 04:11:49 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 220
+[01-Mar-2025 04:11:49 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$Fname in /home/pwubataa/public_html/main-all/updateStudent.php on line 227
+[01-Mar-2025 04:11:49 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 227
+[01-Mar-2025 04:11:49 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$Mname in /home/pwubataa/public_html/main-all/updateStudent.php on line 233
+[01-Mar-2025 04:11:49 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 233
+[01-Mar-2025 04:11:49 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$Lname in /home/pwubataa/public_html/main-all/updateStudent.php on line 239
+[01-Mar-2025 04:11:49 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 239
+[01-Mar-2025 04:11:49 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$CourseStrand in /home/pwubataa/public_html/main-all/updateStudent.php on line 245
+[01-Mar-2025 04:11:49 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 245
+[01-Mar-2025 04:11:49 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$YrLevel in /home/pwubataa/public_html/main-all/updateStudent.php on line 251
+[01-Mar-2025 04:11:49 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 251
+[01-Mar-2025 04:11:49 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$ContactNo in /home/pwubataa/public_html/main-all/updateStudent.php on line 260
+[01-Mar-2025 04:11:49 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 260
+[01-Mar-2025 04:11:49 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$Email in /home/pwubataa/public_html/main-all/updateStudent.php on line 266
+[01-Mar-2025 04:11:49 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 266
+[01-Mar-2025 04:11:49 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$hAddress in /home/pwubataa/public_html/main-all/updateStudent.php on line 273
+[01-Mar-2025 04:11:49 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 273
+[01-Mar-2025 04:12:18 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$StudentID in /home/pwubataa/public_html/main-all/updateStudent.php on line 220
+[01-Mar-2025 04:12:18 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 220
+[01-Mar-2025 04:12:18 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$Fname in /home/pwubataa/public_html/main-all/updateStudent.php on line 227
+[01-Mar-2025 04:12:18 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 227
+[01-Mar-2025 04:12:18 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$Mname in /home/pwubataa/public_html/main-all/updateStudent.php on line 233
+[01-Mar-2025 04:12:18 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 233
+[01-Mar-2025 04:12:18 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$Lname in /home/pwubataa/public_html/main-all/updateStudent.php on line 239
+[01-Mar-2025 04:12:18 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 239
+[01-Mar-2025 04:12:18 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$CourseStrand in /home/pwubataa/public_html/main-all/updateStudent.php on line 245
+[01-Mar-2025 04:12:18 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 245
+[01-Mar-2025 04:12:18 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$YrLevel in /home/pwubataa/public_html/main-all/updateStudent.php on line 251
+[01-Mar-2025 04:12:18 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 251
+[01-Mar-2025 04:12:18 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$ContactNo in /home/pwubataa/public_html/main-all/updateStudent.php on line 260
+[01-Mar-2025 04:12:18 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 260
+[01-Mar-2025 04:12:18 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$Email in /home/pwubataa/public_html/main-all/updateStudent.php on line 266
+[01-Mar-2025 04:12:18 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 266
+[01-Mar-2025 04:12:18 UTC] PHP Warning:  Undefined property: Endroid\QrCode\Writer\Result\PngResult::$hAddress in /home/pwubataa/public_html/main-all/updateStudent.php on line 273
+[01-Mar-2025 04:12:18 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pwubataa/public_html/main-all/updateStudent.php on line 273
